@@ -1,18 +1,37 @@
 <!DOCTYPE html>
-<html lang= 'en'>
+<html lang="en">
 <head>
-   <meta charset= 'UTF-8'>
-   <meta http-equiv= 'X-UA-Compatible' content= 'IE=edge'>
-   <meta name= 'viewport' content= 'width=device-width, initial-scale=1.0'>
-   <title> Donut Shop</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donut Shop</title>
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            position: relative;
+        }
+
+        h1 {
+            position: absolute;
+            top: 100px;
+            left: 150px;
+            color: red;
+        }
+
+        img {
+            position: absolute;
+            top: 250px;
+            left: 400px;
+            width: 300px;
+        }
+    </style>
 </head>
-<style>
-/* Zde napište styly :) */
 
-
-</style>
 <body>
     <h1>Donut World</h1>
-   <img src= "/uploads/2023/02/donut.png">
+
+    <img src="/uploads/2023/02/donut.png" alt="Donut">
 </body>
 </html>
