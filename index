@@ -9,21 +9,18 @@
     <style>
         body {
             margin: 0;
-            height: 100vh;
-            position: relative;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
 
         h1 {
-            position: absolute;
-            top: 100px;
-            left: 150px;
             color: red;
         }
 
         img {
-            position: absolute;
-            top: 250px;
-            left: 400px;
             width: 300px;
         }
     </style>
@@ -31,7 +28,6 @@
 
 <body>
     <h1>Donut World</h1>
-
     <img src="/uploads/2023/02/donut.png" alt="Donut">
 </body>
 </html>
